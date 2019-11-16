@@ -109,10 +109,9 @@ function computeDCMeans(list,yearMonth){
 
 //12 - Retornar o fluxo de caixa de determinado mês/ano. O fluxo de caixa nada mais é do que uma lista contendo pares (dia,saldoFinalDoDia). 
 function getCashFlow(list, yearMonth){
-	let balance = getInitialBalanceAtYearMonth(list,yearMonth);
 	let cashFlow = [];
 	days = getDateArray(yearMonth.month);
-	days.forEach(day => cashFlow.push("( Dia: " + day + "/" + yearMonth.month + "/" + yearMonth.year  + ", R$: " + getBalanceAtYearMonthDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":day}).toFixed(2) + ")"));
+	days.forEach(d => cashFlow.push("( Dia: " + d + "/" + yearMonth.month + "/" + yearMonth.year  + ", R$: " + getBalanceAtYearMonthDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":d}).toFixed(2) + ")"));
 	return cashFlow;
 }
 
@@ -125,12 +124,15 @@ function getDateArray(month){
 
 function getBalanceAtYearMonthDay(list,yearMonth){
 	let balance = getInitialBalanceAtYearMonth(list,yearMonth);
+	
 	let days = getDateArray(yearMonth.month).filter(function(day){ return day<=yearMonth.day;});
-	days.forEach((day)=> balance+=computeCDByDay(list,day));
+
+	days.forEach( (day) => balance += computeCDByDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":day}));
+	
 	return balance;
 }
 
-function computeCDByDay(list,day){
+function computeCDByDay(list,yearMonth){
 	return (list.filter(yearMonthDayEquals,yearMonth).filter(isNotBalance)).reduce(function(a,b){ return a + b.valor;}, 0);
 }
 
@@ -151,7 +153,7 @@ function isCredit(obj){
 
 function getInitialBalanceAtYearMonth(list,yearMonth){	
 	let balance = 0;
-	(filterByYearMonthDay(list,yearMonth)).forEach(function (obj) {
+	(filterByYearMonth(list,yearMonth)).forEach(function (obj) {
 		if (obj.textoIdentificador === "Saldo Corrente")
 			balance = obj.valor;
 	});
@@ -163,7 +165,6 @@ function dateSort(a,b){
 
 
 //Interface
-
 function filterDate(e){
 	let d = e.target.value.split('-');
 	yearMonth = {"year": Number(d[0]), "month": Number(d[1]),"day": Number(d[2])};
@@ -176,9 +177,6 @@ function filterChange(e){
 
 function updateEverything(){
 	//Receita Mês
-	console.log("Updating...")
-	console.log(yearMonth);
-	
 	document.getElementById("receitaMes").innerHTML = "Receita Mês: R$  " + computeCreditsByYearMonth(db,yearMonth).toFixed(2);
 	document.getElementById("despesaMes").innerHTML = "Despesas Mês: R$ " + computeDebitsByYearMonth(db,yearMonth).toFixed(2);
 	document.getElementById("sobraMes").innerHTML = "Sobra Mês: R$ " + computeDCByYearMonth(db,yearMonth).toFixed(2);
@@ -194,7 +192,7 @@ function updateEverything(){
 	document.getElementById("sobraMedia").innerHTML = "Sobra Média/Ano: R$ " + computeDCMeans(db,yearMonth).toFixed(2);
 
 
-	document.getElementById("fluxoDeCaixa").innerHTML = getCashFlow(db,yearMonth).join("<br>");
+	document.getElementById("fluxoDeCaixa").innerHTML = "Fluxo de caixa:  <br>" + getCashFlow(db,yearMonth).join("<br>");
 	
 	let el = document.getElementById("main");
 	let filtered = db;
