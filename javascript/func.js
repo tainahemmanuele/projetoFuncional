@@ -1,6 +1,6 @@
 let yearMonth = {"year": 2017, "month": 1,"day": 1};
 let db = [];
-let filterType = "all";
+let filterType = "yearMonthDay";
 
 fetch("http://150.165.15.10:8080/todasTransacoes",{method: 'POST'})
 .then((response) => response.json())
@@ -10,10 +10,6 @@ fetch("http://150.165.15.10:8080/todasTransacoes",{method: 'POST'})
 	db = result;
 	})
 .catch((err) => { console.error(err); });
-
-
-
-
 
 
 function cleanObj(obj){
@@ -209,7 +205,6 @@ function updateEverything(){
 	  		filtered = filterByYearMonthDay(filtered,yearMonth); 	
 	  	break;
 	}
-	console.log(filtered.length);
 	populateHTML(filtered);	
 }
 
