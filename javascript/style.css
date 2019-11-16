@@ -1,0 +1,40 @@
+header{
+	display:inline-block;
+	float: left;
+	margin:15px;
+	border: 1px solid black;
+}
+ul {
+	float:left;
+	border: 1px solid black;
+	margin: 2px;
+	padding: 1px;
+	width: 100%;
+}
+li{
+   list-style-type: none; 
+   /*float:left;
+   margin: 5px;
+   border: 1px solid black;*/
+}
+
+section{
+	padding: 5px;
+	border:1px solid black;
+	float:left;
+}
+.valores {
+	float:left;
+	display:block;
+	border:1px solid black;
+	margin: 5px;
+	padding: 5px;
+	width:30%;
+}
+#fluxoDeCaixa{
+	float:right;
+	display:block;
+	padding: 0;
+    margin: 0;
+    width: 100%;
+}

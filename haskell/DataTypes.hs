@@ -16,7 +16,7 @@ module DataTypes(
       textoIdentificador :: String,
       descricao :: String,
       numeroDOC :: String,
-      tipos :: [TipoTransacao], -- Na documentacao,fala em linkedlist - implementar ela no caso?
+      tipos :: [TipoTransacao],
    } deriving (Generic, Show)
    
    data GregorianCalendar =

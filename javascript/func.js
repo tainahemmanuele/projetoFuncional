@@ -1,4 +1,4 @@
-let yearMonth = {"year": 2017, "month": 1,"day": 1};
+let yearMonth = {"year": 2017, "month": 3,"day": 1};
 let db = [];
 let filterType = "yearMonthDay";
 
@@ -99,7 +99,7 @@ function computeDebitsMeansByYear(list,yearMonth){
 }
 //11 - Calcular a média das sobras em determinado ano
 function computeDCMeans(list,yearMonth){
-	let filtered = list.filter(yearEquals,yearMonth).filter(isNotBalance);
+	let filtered = list.filter(yearEquals,yearMonth).filter(isDebitOrCredit);
 	return (filtered).reduce(function(a,b){ return a + b.valor;}, 0) /filtered.length;
 }
 
@@ -129,12 +129,15 @@ function getBalanceAtYearMonthDay(list,yearMonth){
 }
 
 function computeCDByDay(list,yearMonth){
-	return (list.filter(yearMonthDayEquals,yearMonth).filter(isNotBalance)).reduce(function(a,b){ return a + b.valor;}, 0);
+	return (list.filter(yearMonthDayEquals,yearMonth).filter(isDebitOrCredit)).reduce(function(a,b){ return a + b.valor;}, 0);
 }
 
+function isDebitOrCredit(obj){
+	return !(obj.tipos.includes("SALDO_CORRENTE")) && !(obj.tipos.includes("APLICACAO")) && !(obj.tipos.includes("VALOR_APLICACAO"));
+}
 
 function isDebit(obj){
-	return obj.valor < 0 && !(obj.textoIdentificador === "Saldo Corrente");
+	return obj.valor < 0 && !(obj.tipos.includes("SALDO_CORRENTE")) && !(obj.tipos.includes("APLICACAO")) && !(obj.tipos.includes("VALOR_APLICACAO"));
 }
 
 function isNotBalance(obj){
@@ -143,7 +146,7 @@ function isNotBalance(obj){
 
 
 function isCredit(obj){
-	return obj.valor > 0 && !(obj.textoIdentificador === "Saldo Corrente");
+	return obj.valor > 0 && !(obj.tipos.includes("SALDO_CORRENTE")) && !(obj.tipos.includes("APLICACAO")) && !(obj.tipos.includes("VALOR_APLICACAO"));;
 }
 
 

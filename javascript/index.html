@@ -2,27 +2,30 @@
 <html>
 <head>
 	<title>Functional</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
-		<input id="date" value="2017-01-01" type="date" onchange="filterDate(event);">
+		<input id="date" value="2017-03-01" type="date" onchange="filterDate(event);">
 		<select id="filterType" onchange="filterChange( this.value );">
 		    <option value="yearMonthDay">Por Dia</option>
 		    <option value="yearMonth">Por Mês</option>
 		    <option value="year">Por Ano</option>
 		    <option value="">Sem filtro</option>
 		</select>
-		<div id="receitaMes">Receita Mês: 0</div>
-		<div id="despesaMes">Despesa Mês: 0</div>
-		<div id="sobraMes">Sobra Mês: 0</div>
-		<div id="saldoMes">Saldo Mês: 0</div>
-		<div id="saldoMax">Saldo Max Mês: 0</div>
-		<div id="saldoMin">Saldo Min Mês: 0</div>
-		<div id="receitaMedia">Receita Média/Ano: 0</div>
-		<div id="despesaMedia">Despesa Média/Ano: 0</div>
-		<div id="sobraMedia">Sobra Média/Ano: 0</div>
-		<div id="fluxoDeCaixa">Fluxo: (0,0)</div>
 	</header>
+	<section>
+		<div id="receitaMes" class="valores">Receita Mês: 0</div>
+		<div id="despesaMes" class="valores">Despesa Mês: 0</div>
+		<div id="sobraMes" class="valores">Sobra Mês: 0</div>
+		<div id="saldoMes" class="valores">Saldo Mês: 0</div>
+		<div id="saldoMax" class="valores">Saldo Max Mês: 0</div>
+		<div id="saldoMin" class="valores">Saldo Min Mês: 0</div>
+		<div id="receitaMedia" class="valores">Receita Média/Ano: 0</div>
+		<div id="despesaMedia" class="valores">Despesa Média/Ano: 0</div>
+		<div id="sobraMedia" class="valores">Sobra Média/Ano: 0</div>
+		<div id="fluxoDeCaixa" class="valores">Fluxo: (0,0)</div>
+	</section>
 	<main id="main"></main>
 	<script type="text/javascript" src="func.js"></script>
 </body>
