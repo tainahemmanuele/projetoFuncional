@@ -1,49 +1,48 @@
-let yearMonth = {"year": 2018, "month": 1,"day": 24};
+let yearMonth = {"year": 2017, "month": 1,"day": 1};
+let db = [];
+let filterType = "all";
+
 fetch("http://150.165.15.10:8080/todasTransacoes",{method: 'POST'})
 .then((response) => response.json())
 .then((result) => {
 	result = result.map(cleanObj);
-	console.log("revenue:");/*
-	console.log(computeBalance(result,yearMonth));
-	console.log(computeCreditsByYearMonth(result,yearMonth));
-	console.log(computeDebitsByYearMonth(result,yearMonth));
-	console.log(computeDCByYearMonth(result,yearMonth));
-	console.log(computeCreditMeansByYear(result,yearMonth.year));
-	*/
-	console.log(getMaxBalance(result,yearMonth));
-	//console.log(getCashFlow(result,yearMonth));
-	//console.log(computeCDByDay(result,yearMonth));
-	//console.log(getBalanceAtYearMonthDay(result,yearMonth));
-	//getBalanceAtYearMonthDay(result,yearMonth);
-	document.body.innerHTML+=JSON.stringify(filterByYear(result,yearMonth));
+	populateHTML(result);
+	db = result;
 	})
 .catch((err) => { console.error(err); });
 
 
 
 
-function populateHTML(arr){
-	arr.forEach(a=>{})
-}
 
 
 function cleanObj(obj){
-	obj.data = new Date(obj.data.year + "-" + obj.data.month + "-" + obj.data.dayOfMonth);
+	obj.data = new Date(obj.data.year + "-" + (obj.data.month+1) + "-" + obj.data.dayOfMonth);
 	delete obj.arquivos;
 	return obj;
 }
 
-//1 - Filtrar transações por ano.
 function yearEquals(obj){
 	return obj.data.getFullYear() == this.year;
 }
+
+function yearMonthEquals(obj){
+	return obj.data.getFullYear() == this.year && obj.data.getMonth() == this.month-1;
+}
+
+function yearMonthDayEquals(obj){
+	return obj.data.getFullYear() == this.year && obj.data.getMonth() == this.month-1 && obj.data.getDate() == this.day;
+}
+
+//1 - Filtrar transações por ano.
+//2 - Filtrar transações por ano e mês.
+//1.2.C - Filtrar transações por ano e mês e dia.
 function filterByYear(list, yearMonth){
 	return list.filter(yearEquals,yearMonth);
 }
 
-//2 - Filtrar transações por ano e mês.
-function yearMonthEquals(obj){
-	return obj.data.getFullYear() == this.year && obj.data.getMonth()+1 == this.month;
+function filterByYearMonthDay(list, yearMonth){
+	return list.filter(yearMonthDayEquals,yearMonth);
 }
 
 function filterByYearMonth(list, yearMonth){
@@ -51,11 +50,11 @@ function filterByYearMonth(list, yearMonth){
 }
 //3 - Calcular o valor das receitas (créditos) em um determinado mês e ano.
 function computeCreditsByYearMonth(list,yearMonth){
-	return (filterByYear(list,yearMonth).filter(isCredit)).reduce(function(a,b){ return a + b.valor;}, 0);
+	return (filterByYearMonth(list,yearMonth).filter(isCredit)).reduce(function(a,b){ return a + b.valor;}, 0);
 }
 //4 - Calcular o valor das despesas (débitos) em um determinado mês e ano.
 function computeDebitsByYearMonth(list,yearMonth){
-	return (list.filter(yearMonthEquals,yearMonth).filter(isDebit)).reduce(function(a,b){ return a + b.valor;}, 0);
+	return (filterByYearMonth(list,yearMonth).filter(isDebit)).reduce(function(a,b){ return a + b.valor;}, 0);
 }
 
 //5 - Calcular a sobra (receitas - despesas) de determinado mês e ano
@@ -81,7 +80,7 @@ function getMaxBalance(list,yearMonth){
 	return balance;
 }
 //8 - Calcular o saldo mínimo atingido em determinado ano e mês
-function getMaxBalance(list,yearMonth){
+function getMinBalance(list,yearMonth){
 	let balance = 0;//getInitialBalanceAtYearMonth(list,yearMonth);
 	let minBalance = balance;
 	filterByYearMonth(list,yearMonth).forEach((action) => {
@@ -93,18 +92,18 @@ function getMaxBalance(list,yearMonth){
 }
 
 //9 - Calcular a média das receitas em determinado ano
-function computeCreditMeansByYear(list,year){
-	let filtered = list.filter(yearEquals,year).filter(isCredit);
+function computeCreditMeansByYear(list,yearMonth){
+	let filtered = list.filter(yearEquals,yearMonth).filter(isCredit);
 	return (filtered).reduce(function(a,b){ return a + b.valor;}, 0) /filtered.length;
 }
 //10 - Calcular a média das despesas em determinado ano
-function computeDebitsMeansByYear(list,year){
-	let filtered = list.filter(yearEquals,year).filter(isDebit);
+function computeDebitsMeansByYear(list,yearMonth){
+	let filtered = list.filter(yearEquals,yearMonth).filter(isDebit);
 	return (filtered).reduce(function(a,b){ return a + b.valor;}, 0) /filtered.length;
 }
 //11 - Calcular a média das sobras em determinado ano
 function computeDCMeans(list,yearMonth){
-	let filtered = list.filter(yearEquals,year).filter(isNotBalance);
+	let filtered = list.filter(yearEquals,yearMonth).filter(isNotBalance);
 	return (filtered).reduce(function(a,b){ return a + b.valor;}, 0) /filtered.length;
 }
 
@@ -113,14 +112,14 @@ function getCashFlow(list, yearMonth){
 	let balance = getInitialBalanceAtYearMonth(list,yearMonth);
 	let cashFlow = [];
 	days = getDateArray(yearMonth.month);
-	days.forEach((day) => cashFlow.push([day,getBalanceAtYearMonthDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":day})]));
+	days.forEach(day => cashFlow.push("( Dia: " + day + "/" + yearMonth.month + "/" + yearMonth.year  + ", R$: " + getBalanceAtYearMonthDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":day}).toFixed(2) + ")"));
 	return cashFlow;
 }
 
 
 //UTIL
 function getDateArray(month){
-	return (Array.from(Array(new Date(yearMonth.year, month+1, 0).getDate()).keys())).map((x) => x+1);
+	return (Array.from(Array(new Date(yearMonth.year, month, 0).getDate()).keys())).map((x) => x+1);
 }
 
 
@@ -150,13 +149,6 @@ function isCredit(obj){
 }
 
 
-function yearMonthDayEquals(obj){
-	return obj.data.getFullYear() == this.year && obj.data.getMonth()+1 == this.month && obj.data.getDate() == this.day;
-}
-
-function filterByYearMonthDay(list, yearMonth){
-	return list.filter(yearMonthDayEquals,yearMonth);
-}
 function getInitialBalanceAtYearMonth(list,yearMonth){	
 	let balance = 0;
 	(filterByYearMonthDay(list,yearMonth)).forEach(function (obj) {
@@ -167,4 +159,79 @@ function getInitialBalanceAtYearMonth(list,yearMonth){
 }
 function dateSort(a,b){
 	return a.data - b.data;
+}
+
+
+//Interface
+
+function filterDate(e){
+	let d = e.target.value.split('-');
+	yearMonth = {"year": Number(d[0]), "month": Number(d[1]),"day": Number(d[2])};
+	updateEverything();
+}
+function filterChange(e){
+	filterType = e;
+	updateEverything();
+}
+
+function updateEverything(){
+	//Receita Mês
+	console.log("Updating...")
+	console.log(yearMonth);
+	
+	document.getElementById("receitaMes").innerHTML = "Receita Mês: R$  " + computeCreditsByYearMonth(db,yearMonth).toFixed(2);
+	document.getElementById("despesaMes").innerHTML = "Despesas Mês: R$ " + computeDebitsByYearMonth(db,yearMonth).toFixed(2);
+	document.getElementById("sobraMes").innerHTML = "Sobra Mês: R$ " + computeDCByYearMonth(db,yearMonth).toFixed(2);
+	document.getElementById("saldoMes").innerHTML = "Saldo Mês: R$ " + computeBalance(db,yearMonth).toFixed(2);
+
+
+	document.getElementById("saldoMax").innerHTML = "Saldo Max: R$ " + getMaxBalance(db,yearMonth).toFixed(2);
+	document.getElementById("saldoMin").innerHTML = "Saldo Min: R$ " + getMinBalance(db,yearMonth).toFixed(2);
+
+
+	document.getElementById("receitaMedia").innerHTML = "Receita Média/Ano: R$ " + computeCreditMeansByYear(db,yearMonth).toFixed(2);
+	document.getElementById("despesaMedia").innerHTML = "Despesa Média/Ano: R$ " + computeDebitsMeansByYear(db,yearMonth).toFixed(2);
+	document.getElementById("sobraMedia").innerHTML = "Sobra Média/Ano: R$ " + computeDCMeans(db,yearMonth).toFixed(2);
+
+
+	document.getElementById("fluxoDeCaixa").innerHTML = getCashFlow(db,yearMonth).join("<br>");
+	
+	let el = document.getElementById("main");
+	let filtered = db;
+	switch (filterType) {
+	  	case "year": 			
+	  		filtered = filterByYear(filtered,yearMonth); 	
+	  	break;
+
+	  	case "yearMonth": 		
+	  		filtered = filterByYearMonth(filtered,yearMonth); 	
+	  	break;
+	  	
+	  	case "yearMonthDay": 	
+	  		filtered = filterByYearMonthDay(filtered,yearMonth); 	
+	  	break;
+	}
+	console.log(filtered.length);
+	populateHTML(filtered);	
+}
+
+function populateHTML(arr){
+	let el = document.getElementById("main");
+	el.innerHTML = "";
+	arr.forEach(a=>{
+		let ul = document.createElement("ul");
+		let l1 = document.createElement("li");
+		let l2 = document.createElement("li");
+		let l3 = document.createElement("li");
+
+		l1.innerHTML = "Descrição: " + a.textoIdentificador; 
+		l2.innerHTML = "valor: " + a.valor; 
+		l3.innerHTML = "Data: " + a.data; 
+	
+		ul.append(l1);
+		ul.append(l2);
+		ul.append(l3);
+
+		el.append(ul);
+	})
 }

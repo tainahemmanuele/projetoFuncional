@@ -4,7 +4,26 @@
 	<title>Funcitonal</title>
 </head>
 <body>
-
-<script type="text/javascript" src="func.js"></script>
+	<header>
+		<input id="date" value="2017-01-01" type="date" onchange="filterDate(event);">
+		<select id="filterType" onchange="filterChange( this.value );">
+		    <option value="year">Por Ano</option>
+		    <option value="yearMonth">Por Mês</option>
+		    <option value="yearMonthDay">Por Dia</option>
+		    <option value="">Sem filtro</option>
+		</select>
+		<div id="receitaMes">Receita Mês: 0</div>
+		<div id="despesaMes">Despesa Mês: 0</div>
+		<div id="sobraMes">Sobra Mês: 0</div>
+		<div id="saldoMes">Saldo Mês: 0</div>
+		<div id="saldoMax">Saldo Max Mês: 0</div>
+		<div id="saldoMin">Saldo Min Mês: 0</div>
+		<div id="receitaMedia">Receita Média/Ano: 0</div>
+		<div id="despesaMedia">Despesa Média/Ano: 0</div>
+		<div id="sobraMedia">Sobra Média/Ano: 0</div>
+		<div id="fluxoDeCaixa">Fluxo: (0,0)</div>
+	</header>
+	<main id="main"></main>
+	<script type="text/javascript" src="func.js"></script>
 </body>
 </html>
