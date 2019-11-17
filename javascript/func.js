@@ -70,7 +70,7 @@ function computeBalanceDay(list,yearMonth){
 //7 - Calcular o saldo máximo atingido em determinado ano e mês
 function getMaxBalance(list,yearMonth){
 	let balance = 0;//getInitialBalanceAtYearMonth(list,yearMonth);
-	let maxBalance = balance;
+	let maxBalance = getInitialBalanceAtYearMonth(list,yearMonth);
 	filterByYearMonth(list,yearMonth).forEach((action) => {
 		balance+=action.valor;
 		if (maxBalance < balance)
@@ -80,8 +80,8 @@ function getMaxBalance(list,yearMonth){
 }
 //8 - Calcular o saldo mínimo atingido em determinado ano e mês
 function getMinBalance(list,yearMonth){
-	let balance = 0;//getInitialBalanceAtYearMonth(list,yearMonth);
-	let minBalance = balance;
+	let balance = 0;
+	let minBalance = getInitialBalanceAtYearMonth(list,yearMonth);
 	filterByYearMonth(list,yearMonth).forEach((action) => {
 		balance+=action.valor;
 		if (minBalance > balance)
@@ -103,7 +103,7 @@ function computeDebitsMeansByYear(list,yearMonth){
 //11 - Calcular a média das sobras em determinado ano
 function computeDCMeans(list,yearMonth){
 	let filtered = list.filter(yearEquals,yearMonth).filter(isDebitOrCredit);
-	
+
 	return (filtered).reduce(function(a,b){ return a + b.valor;}, 0) /filtered.length;
 }
 

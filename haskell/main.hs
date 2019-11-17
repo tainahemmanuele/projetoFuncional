@@ -64,7 +64,7 @@ finalBalanceInMonth db y m = sumValues (filterByYearMonth db y m)
 
 --Calcular o saldo máximo atingido em determinado ano e mês
 getSaldoMax [] _ _ = 0
-getSaldoMax db y m = maximum (getSaldos ts 0)
+getSaldoMax db y m = maximum (getSaldos (tail ts) (getValor (head ts) ))
  where ts = filterByYearMonth db y m
 
 getSaldos [] _ = []
@@ -72,7 +72,7 @@ getSaldos (t:ts) b = [b] ++ getSaldos ts ((getValor t)+b)
 
 --Calcular o saldo mínimo atingido em determinado ano e mês
 getSaldoMin [] _ _ = 0
-getSaldoMin db y m = minimum (getSaldos ts 0)
+getSaldoMin db y m = minimum (getSaldos (tail ts) (getValor (head ts) ))
  where ts = filterByYearMonth db y m
 
 --Calcular a média das receitas em determinado ano
