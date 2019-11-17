@@ -12,7 +12,7 @@ module DataTypes(
    
    data Transacao = 
     Transacao{
-       date :: GregorianCalendar,
+       datas :: GregorianCalendar,
        valor :: Double,
        textoIdentificador :: String,
        descricao :: String,
@@ -114,6 +114,9 @@ module DataTypes(
   
    instance ToJSON TipoTransacao
    instance FromJSON TipoTransacao
+
+   instance Eq Transacao where
+      Transacao _ x _ _ _ _ == Transacao _ y _ _ _ _  = x == y
    
    
    
