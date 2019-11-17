@@ -1,4 +1,5 @@
 {-# LANGUAGE DeriveGeneric #-}
+
 module DataTypes(
    Transacao(..),
    GregorianCalendar(..),
@@ -10,21 +11,21 @@ module DataTypes(
    import GHC.Generics
    
    data Transacao = 
-   Transacao{
-      date :: GregorianCalendar,
-      valor :: Double,
-      textoIdentificador :: String,
-      descricao :: String,
-      numeroDOC :: String,
-      tipos :: [TipoTransacao],
-   } deriving (Generic, Show)
+    Transacao{
+       date :: GregorianCalendar,
+       valor :: Double,
+       textoIdentificador :: String,
+       descricao :: String,
+       numeroDOC :: String,
+       tipos :: [TipoTransacao]
+    } deriving (Generic, Show)
    
    data GregorianCalendar =
-   GregorianCalendar {
-      year :: Int,
-      month :: Int,
-      dayOfMonth :: Int
-   } deriving (Generic, Show)
+    GregorianCalendar {
+       year :: Int,
+       month :: Int,
+       dayOfMonth :: Int
+    } deriving (Generic, Show)
    
    data TipoTransacao = 
       SALDO_CORRENTE 
@@ -62,7 +63,7 @@ module DataTypes(
       | TARIFAS_BANCARIAS 
       | OUTRAS_DESPESAS_ADMINISTRATIVAS 
       | APLICACAO 
-      | OUTROS deriving (Eq, Enum)
+      | OUTROS deriving (Eq, Enum, Generic)
    
    instance Show TipoTransacao where
       show SALDO_CORRENTE = "Saldo Corrente" 
@@ -103,12 +104,14 @@ module DataTypes(
       show OUTROS = "Outros"
    
    -- Declarado conforme documentacao do Aeson (https://artyom.me/aeson#records-and-json-generics)
+   -- Outros exemplos, caso não rode: https://dev.to/piq9117/haskell-encoding-and-decoding-json-with-aeson-5d7n
    instance ToJSON Transacao
-   instance FromJSON Transacao
-   
+   instance FromJSON Transacao where 
+
+ 
    instance ToJSON GregorianCalendar
    instance FromJSON GregorianCalendar
-   
+  
    instance ToJSON TipoTransacao
    instance FromJSON TipoTransacao
    
