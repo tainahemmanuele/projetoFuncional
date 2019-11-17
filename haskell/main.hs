@@ -13,19 +13,14 @@ main = do
 --	db <- getTransactions
 --	depois pode chamar normalmente com:
 --  yearEquals db 2017
-
-
---Transacao (data valor textoIdentificador descricao numeroDoc tipos)
+--  Transacao (data valor textoIdentificador descricao numeroDoc tipos)
 
 
 -- Date
 getYear (GregorianCalendar y _ _ ) = y
 getMonth (GregorianCalendar _ m _ ) = m
 getDay (GregorianCalendar _ _ d) = d
-
-
-
-
+monthDaysList y m = [1..gregorianMonthLength y (m+1)]
 
 -- Info
 getValor (Transacao _ v _ _ _ _) = v
@@ -33,6 +28,7 @@ getDate (Transacao d _ _ _ _ _) = d
 getType (Transacao _ _ _ _ _ t) = t
 
 --Util
+
 yearEquals y (Transacao c _ _ _ _ _) = y == getYear c
 yearMonthEquals y m (Transacao c _ _ _ _ _) = y == getYear c && m == getMonth c
 yearMonthDayEquals y m d (Transacao c _ _ _ _ _) = y == getYear c && m == getMonth c && getDay c == d
@@ -67,20 +63,35 @@ sumSobra db y m = (sumCreditsByYearMonth db y m) + (sumDebitByYearMonth db y m)
 finalBalanceInMonth db y m = sumValues (filterByYearMonth db y m)
 
 --Calcular o saldo máximo atingido em determinado ano e mês
+getSaldoMax [] _ _ = 0
+getSaldoMax db y m = maximum (getSaldos ts 0)
+ where ts = filterByYearMonth db y m
+
+getSaldos [] _ = []
+getSaldos (t:ts) b = [b] ++ getSaldos ts ((getValor t)+b)
 
 --Calcular o saldo mínimo atingido em determinado ano e mês
+getSaldoMin [] _ _ = 0
+getSaldoMin db y m = minimum (getSaldos ts 0)
+ where ts = filterByYearMonth db y m
 
 --Calcular a média das receitas em determinado ano
-finalCreditInMonth db y = (sumValues filtered) / (length filtered)
+finalCreditInMonth db y = (sumValues filtered) / (fromIntegral (length filtered))
  where filtered = (filter (isCredit) (filterByYear db y))
 
 --Calcular a média das despesas em determinado ano
-finalDebitInMonth db y = (sumValues filtered) / (length filtered)
+finalDebitInMonth db y = (sumValues filtered) / (fromIntegral (length filtered))
  where filtered = (filter (isDebit) (filterByYear db y))
 
 --Calcular a média das sobras em determinado ano
-finalSobraInMonth db y = (sumValues filtered) / (length filtered)
+finalSobraInMonth db y = (sumValues filtered) / (fromIntegral (length filtered))
  where filtered = (filter (isCreditOrDebit) (filterByYear db y))
 
 --Retornar o fluxo de caixa de determinado mês/ano. O fluxo de caixa nada mais é do que uma lista contendo pares (dia,saldoFinalDoDia).
-cashFlow [] _ _ = []
+cashFlow db y m = cashFlow' ndb ds y m
+ where 
+ ds = monthDaysList (fromIntegral y) m
+ ndb = filterByYearMonth db y m
+
+cashFlow' _ [] y m = []
+cashFlow' db (d:ds) y m = [ (show y ++ "/" ++ show m ++ "/" ++ show d , sumValues [t | t <- db, (getDay (getDate t)) <= d]) ] ++ cashFlow' db ds y m 

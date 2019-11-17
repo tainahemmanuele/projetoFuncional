@@ -60,9 +60,12 @@ function computeDCByYearMonth(list,yearMonth){
 
 //6 - Calcular o saldo final em um determinado ano e mês
 function computeBalance(list,yearMonth){
-	return getInitialBalanceAtYearMonth(list,yearMonth) + computeDCByYearMonth(list,yearMonth);
+	return (filterByYearMonth(list,yearMonth).reduce(function(a,b){ return a + b.valor;}, 0));
 }
 
+function computeBalanceDay(list,yearMonth){
+	return (filterByYearMonthDay(list,yearMonth).reduce(function(a,b){ return a + b.valor;}, 0));
+}
 
 //7 - Calcular o saldo máximo atingido em determinado ano e mês
 function getMaxBalance(list,yearMonth){
@@ -119,11 +122,11 @@ function getDateArray(month){
 
 
 function getBalanceAtYearMonthDay(list,yearMonth){
-	let balance = getInitialBalanceAtYearMonth(list,yearMonth);
+	let balance = 0;
 	
 	let days = getDateArray(yearMonth.month).filter(function(day){ return day<=yearMonth.day;});
 
-	days.forEach( (day) => balance += computeCDByDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":day}));
+	days.forEach( (day) => balance += computeBalanceDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":day}));
 	
 	return balance;
 }
