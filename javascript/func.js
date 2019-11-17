@@ -103,6 +103,7 @@ function computeDebitsMeansByYear(list,yearMonth){
 //11 - Calcular a média das sobras em determinado ano
 function computeDCMeans(list,yearMonth){
 	let filtered = list.filter(yearEquals,yearMonth).filter(isDebitOrCredit);
+	
 	return (filtered).reduce(function(a,b){ return a + b.valor;}, 0) /filtered.length;
 }
 

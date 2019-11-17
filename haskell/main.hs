@@ -36,7 +36,7 @@ yearMonthDayEquals y m d (Transacao c _ _ _ _ _) = y == getYear c && m == getMon
 isCredit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t)) && (v > 0)
 isDebit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t)) && (v < 0)
 isBalance (Transacao _ v _ _ _ t) = (elem SALDO_CORRENTE t)
-isCreditOrDebit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t))
+isCreditOrDebit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t)) && (not (elem APLICACAO t)) 
 
 sumValues [] = 0
 sumValues (t:ts) = getValor t + sumValues ts
@@ -76,15 +76,15 @@ getSaldoMin db y m = minimum (getSaldos ts 0)
  where ts = filterByYearMonth db y m
 
 --Calcular a média das receitas em determinado ano
-finalCreditInMonth db y = (sumValues filtered) / (fromIntegral (length filtered))
+meanCreditYear db y = (sumValues filtered) / (fromIntegral (length filtered))
  where filtered = (filter (isCredit) (filterByYear db y))
 
 --Calcular a média das despesas em determinado ano
-finalDebitInMonth db y = (sumValues filtered) / (fromIntegral (length filtered))
+meanDebitYear db y = (sumValues filtered) / (fromIntegral (length filtered))
  where filtered = (filter (isDebit) (filterByYear db y))
 
 --Calcular a média das sobras em determinado ano
-finalSobraInMonth db y = (sumValues filtered) / (fromIntegral (length filtered))
+meanSobraYear db y = (sumValues filtered) / (fromIntegral (length filtered))
  where filtered = (filter (isCreditOrDebit) (filterByYear db y))
 
 --Retornar o fluxo de caixa de determinado mês/ano. O fluxo de caixa nada mais é do que uma lista contendo pares (dia,saldoFinalDoDia).
