@@ -1,7 +1,7 @@
 module Parser
 (
     getJSON,
-    getTransations
+    getTransactions
 ) where
 
 import qualified Data.ByteString.Lazy as B  
@@ -15,7 +15,7 @@ jsonFile = "data/dadosRequisicoes.json"
 getJSON :: IO B.ByteString
 getJSON = B.readFile jsonFile
 
-getTransations :: IO [Transacao]
-getTransations = do
+getTransactions :: IO [Transacao]
+getTransactions = do
     transations <- (decode <$> getJSON) :: IO (Maybe [Transacao])
     return (fromJust transations)
