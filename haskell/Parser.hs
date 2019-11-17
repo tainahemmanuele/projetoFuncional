@@ -10,7 +10,7 @@ import Data.Maybe
 import DataTypes
 
 jsonFile :: FilePath
-jsonFile = "data/dados.json"
+jsonFile = "data/dadosRequisicoes.json"
 
 getJSON :: IO B.ByteString
 getJSON = B.readFile jsonFile
