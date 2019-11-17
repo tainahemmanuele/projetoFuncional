@@ -73,7 +73,7 @@ function getMaxBalance(list,yearMonth){
 		if (maxBalance < balance)
 			maxBalance = balance;
 	});
-	return balance;
+	return maxBalance;
 }
 //8 - Calcular o saldo mínimo atingido em determinado ano e mês
 function getMinBalance(list,yearMonth){
@@ -84,7 +84,7 @@ function getMinBalance(list,yearMonth){
 		if (minBalance > balance)
 			minBalance = balance;
 	});
-	return balance;
+	return minBalance;
 }
 
 //9 - Calcular a média das receitas em determinado ano
@@ -107,7 +107,7 @@ function computeDCMeans(list,yearMonth){
 function getCashFlow(list, yearMonth){
 	let cashFlow = [];
 	days = getDateArray(yearMonth.month);
-	days.forEach(d => cashFlow.push("( Dia: " + d + "/" + yearMonth.month + "/" + yearMonth.year  + ", R$: " + getBalanceAtYearMonthDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":d}).toFixed(2) + ")"));
+	days.forEach(d => cashFlow.push([new Date(yearMonth.year,yearMonth.month-1,d),getBalanceAtYearMonthDay(list,{"year": yearMonth.year,"month":yearMonth.month,"day":d}).toFixed(2)]));
 	return cashFlow;
 }
 
@@ -191,7 +191,7 @@ function updateEverything(){
 	document.getElementById("sobraMedia").innerHTML = "Sobra Média/Ano: R$ " + computeDCMeans(db,yearMonth).toFixed(2);
 
 
-	document.getElementById("fluxoDeCaixa").innerHTML = "Fluxo de caixa:  <br>" + getCashFlow(db,yearMonth).join("<br>");
+	document.getElementById("fluxoDeCaixa").innerHTML = "Fluxo de caixa:  <br><br>" + getCashFlow(db,yearMonth).join("<br><br>");
 	
 	let el = document.getElementById("main");
 	let filtered = db;
