@@ -3,13 +3,14 @@ header{
 	float: left;
 	margin:15px;
 	border: 1px solid black;
+	width: 95%
 }
 ul {
 	float:left;
 	border: 1px solid black;
 	margin: 2px;
 	padding: 1px;
-	width: 100%;
+	width: 41%;
 }
 li{
    list-style-type: none; 
@@ -22,14 +23,15 @@ section{
 	padding: 5px;
 	border:1px solid black;
 	float:left;
+	width:55%
 }
 .valores {
 	float:left;
 	display:block;
 	border:1px solid black;
-	margin: 5px;
-	padding: 5px;
-	width:30%;
+	margin: 1px;
+	padding: 1px;
+	width:48%;
 }
 #fluxoDeCaixa{
 	float:right;
