@@ -14,4 +14,5 @@ main = do
 --testFilterYear :: ([Transacao] -> Assertion) -> IO b0
 testFilterYear = 
    TestCase (do db <- getTransactionsTest 
-                assertEqual "Filtra o ano" ([db !! 0 ] ++ [db !! 1] ++ [db !! 2]) (filterByYear  db  2017))
+                assertEqual "Filtra o ano de 2017" ([db !! 0 ] ++ [db !! 1] ++ [db !! 2]) (filterByYear  db  2017)
+                assertEqual "Filtra o ano de 2018 (Criado so para testes esses dados)" ([db !! 3] ++ [db !! 4]) (filterByYear  db  2018))
