@@ -1,8 +1,10 @@
+module Main where
 import Parser
 import DataTypes
 import Control.Monad
 import Data.Time.Clock
 import Data.Time.Calendar
+
 
 main = do
   db <- getTransactions
