@@ -44,6 +44,7 @@ function filterByYearMonthDay(list, yearMonth){
 function filterByYearMonth(list, yearMonth){
 	return list.filter(yearMonthEquals,yearMonth);
 }
+
 //3 - Calcular o valor das receitas (créditos) em um determinado mês e ano.
 function computeCreditsByYearMonth(list,yearMonth){
 	return (filterByYearMonth(list,yearMonth).filter(isCredit)).reduce(function(a,b){ return a + b.valor;}, 0);
@@ -60,18 +61,18 @@ function computeDCByYearMonth(list,yearMonth){
 
 //6 - Calcular o saldo final em um determinado ano e mês
 function computeBalance(list,yearMonth){
-	return (filterByYearMonth(list,yearMonth).reduce(function(a,b){ return a + b.valor;}, 0));
+	return (filterTransactions(filterByYearMonth(list,yearMonth)).reduce(function(a,b){ return a + b.valor;}, 0));
 }
 
 function computeBalanceDay(list,yearMonth){
-	return (filterByYearMonthDay(list,yearMonth).reduce(function(a,b){ return a + b.valor;}, 0));
+	return (filterTransactions(filterByYearMonthDay(list,yearMonth)).reduce(function(a,b){ return a + b.valor;}, 0));
 }
 
 //7 - Calcular o saldo máximo atingido em determinado ano e mês
 function getMaxBalance(list,yearMonth){
 	let balance = 0;//getInitialBalanceAtYearMonth(list,yearMonth);
 	let maxBalance = getInitialBalanceAtYearMonth(list,yearMonth);
-	filterByYearMonth(list,yearMonth).forEach((action) => {
+	filterTransactions(filterByYearMonth(list,yearMonth)).forEach((action) => {
 		balance+=action.valor;
 		if (maxBalance < balance)
 			maxBalance = balance;
@@ -82,7 +83,7 @@ function getMaxBalance(list,yearMonth){
 function getMinBalance(list,yearMonth){
 	let balance = 0;
 	let minBalance = getInitialBalanceAtYearMonth(list,yearMonth);
-	filterByYearMonth(list,yearMonth).forEach((action) => {
+	filterTransactions(filterByYearMonth(list,yearMonth)).forEach((action) => {
 		balance+=action.valor;
 		if (minBalance > balance)
 			minBalance = balance;
@@ -150,9 +151,16 @@ function isNotBalance(obj){
 
 
 function isCredit(obj){
-	return obj.valor > 0 && !(obj.tipos.includes("SALDO_CORRENTE")) && !(obj.tipos.includes("APLICACAO")) && !(obj.tipos.includes("VALOR_APLICACAO"));;
+	return obj.valor > 0 && !(obj.tipos.includes("SALDO_CORRENTE")) && !(obj.tipos.includes("APLICACAO")) && !(obj.tipos.includes("VALOR_APLICACAO"));
 }
 
+function isCreditOrDebitOrBalance(obj){
+	return !(obj.tipos.includes("APLICACAO")) && !(obj.tipos.includes("VALOR_APLICACAO"));
+}
+
+function filterTransactions(list){
+	return list.filter(isCreditOrDebitOrBalance);
+}
 
 function getInitialBalanceAtYearMonth(list,yearMonth){	
 	let balance = 0;

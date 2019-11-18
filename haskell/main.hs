@@ -33,13 +33,17 @@ yearEquals y (Transacao c _ _ _ _ _) = y == getYear c
 yearMonthEquals y m (Transacao c _ _ _ _ _) = y == getYear c && m == getMonth c
 yearMonthDayEquals y m d (Transacao c _ _ _ _ _) = y == getYear c && m == getMonth c && getDay c == d
 
-isCredit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t)) && (v > 0)
-isDebit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t)) && (v < 0)
+isCredit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t)) && (not (elem APLICACAO t))  && (v > 0)
+isDebit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t)) && (not (elem APLICACAO t)) && (v < 0)
 isBalance (Transacao _ v _ _ _ t) = (elem SALDO_CORRENTE t)
 isCreditOrDebit (Transacao _ v _ _ _ t) = (not (elem SALDO_CORRENTE t)) && (not (elem VALOR_APLICACAO t)) && (not (elem APLICACAO t)) 
+isCreditOrDebitOrBalance (Transacao _ v _ _ _ t) = (not (elem VALOR_APLICACAO t)) && (not (elem APLICACAO t)) 
 
 sumValues [] = 0
 sumValues (t:ts) = getValor t + sumValues ts
+
+--Filtra as transações
+filterTransactions db = filter (isCreditOrDebitOrBalance) db
 
 --Filtrar transações por ano.
 filterByYear db y = filter (yearEquals y) db
@@ -60,12 +64,12 @@ sumDebitByYearMonth db y m = sumValues (filter (isDebit) (filterByYearMonth db y
 sumSobra db y m = (sumCreditsByYearMonth db y m) + (sumDebitByYearMonth db y m) 
 
 --Calcular o saldo final em um determinado ano e mês
-finalBalanceInMonth db y m = sumValues (filterByYearMonth db y m)
+finalBalanceInMonth db y m = sumValues (filterTransactions (filterByYearMonth db y m))
 
 --Calcular o saldo máximo atingido em determinado ano e mês
 getSaldoMax [] _ _ = 0
 getSaldoMax db y m = maximum (getSaldos (tail ts) (getValor (head ts) ))
- where ts = filterByYearMonth db y m
+ where ts = filterTransactions (filterByYearMonth db y m)
 
 getSaldos [] _ = []
 getSaldos (t:ts) b = [b] ++ getSaldos ts ((getValor t)+b)
@@ -73,7 +77,7 @@ getSaldos (t:ts) b = [b] ++ getSaldos ts ((getValor t)+b)
 --Calcular o saldo mínimo atingido em determinado ano e mês
 getSaldoMin [] _ _ = 0
 getSaldoMin db y m = minimum (getSaldos (tail ts) (getValor (head ts) ))
- where ts = filterByYearMonth db y m
+ where ts = filterTransactions (filterByYearMonth db y m)
 
 --Calcular a média das receitas em determinado ano
 meanCreditYear db y = (sumValues filtered) / (fromIntegral (length filtered))
@@ -91,7 +95,7 @@ meanSobraYear db y = (sumValues filtered) / (fromIntegral (length filtered))
 cashFlow db y m = cashFlow' ndb ds y m
  where 
  ds = monthDaysList (fromIntegral y) m
- ndb = filterByYearMonth db y m
+ ndb = filterTransactions (filterByYearMonth db y m)
 
 cashFlow' _ [] y m = []
 cashFlow' db (d:ds) y m = [ (show y ++ "/" ++ show m ++ "/" ++ show d , sumValues [t | t <- db, (getDay (getDate t)) <= d]) ] ++ cashFlow' db ds y m 
