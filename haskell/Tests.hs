@@ -5,9 +5,10 @@ import Test.HUnit
 import DataTypes
 import ParserTest
 
+-- Roda usando runTestTT nomedaFuncaoTeste
+--Compila Tests.hs antes
 
 main = do
-   
    testFilterYear 
 
 --testFilterYear :: ([Transacao] -> Assertion) -> IO b0
