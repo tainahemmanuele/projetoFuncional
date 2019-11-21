@@ -56236,7 +56236,7 @@
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -791.94,
-      "descricao": "FAV.: E \u0026 S COMERCIO DE COMBUSTIVEIS E L - Abastecimento de máquinas e veiculos",
+      "descricao": "FAV.: E & S COMERCIO DE COMBUSTIVEIS E L - Abastecimento de máquinas e veiculos",
       "numeroDOC": "1335461",
       "classificada": true,
       "tipos": [
@@ -58173,7 +58173,7 @@
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -911.83,
-      "descricao": "FAV.: E \u0026 S COMERCIO DE COMBUSTIVEIS E L - Abastecimento de veiculo, motos e maquin",
+      "descricao": "FAV.: E & S COMERCIO DE COMBUSTIVEIS E L - Abastecimento de veiculo, motos e maquin",
       "numeroDOC": "1387652",
       "classificada": true,
       "tipos": [
@@ -59848,9 +59848,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1360.47,
@@ -59868,9 +59868,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -200.0,
@@ -59907,9 +59907,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHEQUE PAGO CAIXA",
       "valor": -600.0,
@@ -59926,9 +59926,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -17138.0,
@@ -59946,9 +59946,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.PARC.SUBS/INTEG",
       "valor": -50.0,
@@ -59965,9 +59965,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHQ CMP INTEGRADA",
       "valor": -659.0,
@@ -59984,9 +59984,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 1088.91,
@@ -60003,9 +60003,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -18.0,
@@ -60023,9 +60023,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB PACOTE TARIFAS",
       "valor": -59.0,
@@ -60048,27 +60048,7 @@
         "second": 0
       },
       "textoIdentificador": "RDC - Longo CDI",
-      "valor": 75965.01,
-      "descricao": "Valor aplicacao no mes",
-      "numeroDOC": "11111111",
-      "classificada": true,
-      "tipos": [
-        "OUTRAS_RECEITAS",
-        "VALOR_APLICACAO"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 6,
-        "dayOfMonth": 1,
-        "hourOfDay": 0,
-        "minute": 0,
-        "second": 0
-      },
-      "textoIdentificador": "RDC - Longo CDI",
-      "valor": 75965.01,
+      "valor": 75927.51,
       "descricao": "Valor aplicacao no mes",
       "numeroDOC": "11111111",
       "classificada": true,
@@ -60083,9 +60063,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 2,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TRANSF.POU.INTE",
       "valor": -1440.0,
@@ -60103,9 +60083,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 2,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 4701.37,
@@ -60122,9 +60102,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 2,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -6.0,
@@ -60142,9 +60122,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 3,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 1003.8,
@@ -60161,9 +60141,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 3,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -9.0,
@@ -60181,9 +60161,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -390.83,
@@ -60200,9 +60180,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHQ CMP INTEGRADA",
       "valor": -1607.24,
@@ -60219,9 +60199,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 1890.77,
@@ -60238,9 +60218,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -6.0,
@@ -60258,9 +60238,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -27231.58,
@@ -60278,9 +60258,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -928.4,
@@ -60298,9 +60278,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TRANSF.POU.INTE",
       "valor": -1438.56,
@@ -60318,9 +60298,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1005.74,
@@ -60338,9 +60318,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1261.23,
@@ -60358,9 +60338,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -404.19,
@@ -60378,9 +60358,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1077.6,
@@ -60398,9 +60378,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1705.04,
@@ -60418,9 +60398,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1884.47,
@@ -60438,9 +60418,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TRANSF.POU.INTE",
       "valor": -1543.45,
@@ -60458,9 +60438,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -961.1,
@@ -60478,9 +60458,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -961.1,
@@ -60498,9 +60478,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -961.1,
@@ -60518,9 +60498,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB CONV. FGTS",
       "valor": -1486.07,
@@ -60537,9 +60517,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 1042.94,
@@ -60556,9 +60536,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -9.0,
@@ -60576,9 +60556,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -189.91,
@@ -60596,9 +60576,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -1342.99,
@@ -60616,9 +60596,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -227.44,
@@ -60636,9 +60616,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -384.51,
@@ -60656,9 +60636,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -333.53,
@@ -60676,9 +60656,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -854.52,
@@ -60696,9 +60676,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -69.37,
@@ -60716,9 +60696,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -833.08,
@@ -60736,9 +60716,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -504.97,
@@ -60756,9 +60736,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -916.6,
@@ -60776,9 +60756,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -2414.0,
@@ -60795,9 +60775,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 1982.5,
@@ -60814,9 +60794,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -9.0,
@@ -60834,9 +60814,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 9,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 1173.71,
@@ -60853,9 +60833,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 9,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -3.0,
@@ -60873,9 +60853,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 10,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -1395.35,
@@ -60893,9 +60873,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 10,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -240.0,
@@ -60913,9 +60893,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 10,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB. TIT. COBRANÇA",
       "valor": -95.0,
@@ -60932,9 +60912,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 10,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 508.24,
@@ -60951,9 +60931,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COB.EFETIV",
       "valor": -605.5,
@@ -60971,9 +60951,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TRANSF.POU.INTE",
       "valor": -1740.0,
@@ -60991,9 +60971,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -9.0,
@@ -61011,9 +60991,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 12,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -456.38,
@@ -61030,9 +61010,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 12,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHEQUE PAGO CAIXA",
       "valor": -600.0,
@@ -61049,9 +61029,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 12,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHEQUE PAGO CAIXA",
       "valor": -480.0,
@@ -61068,9 +61048,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 12,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 2079.41,
@@ -61087,9 +61067,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 12,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -5.0,
@@ -61107,9 +61087,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 15,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -255.0,
@@ -61126,9 +61106,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 15,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -618.33,
@@ -61145,9 +61125,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 15,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHEQUE PAGO CAIXA",
       "valor": -600.0,
@@ -61164,9 +61144,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 15,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHQ CMP INTEGRADA",
       "valor": -1000.0,
@@ -61183,9 +61163,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 15,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 300.0,
@@ -61202,9 +61182,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 15,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -17.5,
@@ -61222,9 +61202,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -2403.0,
@@ -61242,9 +61222,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -300.0,
@@ -61262,9 +61242,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TRANSF.POU.INTE",
       "valor": -300.0,
@@ -61282,9 +61262,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -300.0,
@@ -61302,9 +61282,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -300.0,
@@ -61322,9 +61302,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -300.0,
@@ -61342,9 +61322,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -300.0,
@@ -61362,9 +61342,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1312.51,
@@ -61382,9 +61362,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -800.0,
@@ -61402,9 +61382,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TRANSF.POU.INTE",
       "valor": -300.0,
@@ -61422,9 +61402,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -300.0,
@@ -61442,9 +61422,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -300.0,
@@ -61462,9 +61442,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 6141.24,
@@ -61481,9 +61461,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 16,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -27.5,
@@ -61501,9 +61481,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 17,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 9787.78,
@@ -61520,9 +61500,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 17,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -20.0,
@@ -61540,9 +61520,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "PGS-CH PRÓP COOP/AG",
       "valor": -3305.95,
@@ -61559,9 +61539,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -500.0,
@@ -61578,9 +61558,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 6711.15,
@@ -61597,9 +61577,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -36.0,
@@ -61617,9 +61597,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.PGTO AG.GPS",
       "valor": -6150.76,
@@ -61637,9 +61617,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DB.CONV.TR FD-RFB",
       "valor": -47.79,
@@ -61657,9 +61637,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -672.2,
@@ -61676,9 +61656,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -666.0,
@@ -61696,9 +61676,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHQ CMP INTEGRADA",
       "valor": -157.5,
@@ -61715,9 +61695,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHQ CMP INTEGRADA",
       "valor": -175.5,
@@ -61734,9 +61714,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CHQ CMP INTEGRADA",
       "valor": -180.0,
@@ -61753,9 +61733,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 5681.52,
@@ -61772,9 +61752,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 19,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -30.5,
@@ -61792,9 +61772,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 22,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.CONV.SANEAMENTO",
       "valor": -2132.82,
@@ -61811,9 +61791,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 22,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 7135.04,
@@ -61830,9 +61810,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 22,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -445.5,
@@ -61850,9 +61830,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 23,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 80148.72,
@@ -61869,9 +61849,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 23,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -5.5,
@@ -61889,9 +61869,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 24,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 1135.47,
@@ -61908,9 +61888,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 25,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -1000.0,
@@ -61928,9 +61908,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 26,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -301.6,
@@ -61947,9 +61927,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 26,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -3.0,
@@ -61967,9 +61947,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 29,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -237.98,
@@ -61987,9 +61967,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 29,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -103.02,
@@ -62006,9 +61986,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 29,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.TIT.COB.EFETIV",
       "valor": -371.3,
@@ -62025,9 +62005,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 29,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DÉB.CONV.TELECOMUN.",
       "valor": -111.77,
@@ -62044,9 +62024,9 @@
         "year": 2019,
         "month": 6,
         "dayOfMonth": 29,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 23
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -500.0,
@@ -62055,122 +62035,6 @@
       "classificada": false,
       "tipos": [
         "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 6,
-        "dayOfMonth": 29,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 566.82,
-      "descricao": "",
-      "numeroDOC": "0000084317",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 6,
-        "dayOfMonth": 29,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
-      },
-      "textoIdentificador": "TARIFA COBRANÇA",
-      "valor": -16.0,
-      "descricao": "",
-      "numeroDOC": "0000048482",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "TARIFAS_BANCARIAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 6,
-        "dayOfMonth": 30,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 11343.18,
-      "descricao": "",
-      "numeroDOC": "0000098037",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 6,
-        "dayOfMonth": 30,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
-      },
-      "textoIdentificador": "TARIFA COBRANÇA",
-      "valor": -5.0,
-      "descricao": "",
-      "numeroDOC": "0000098639",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "TARIFAS_BANCARIAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 6,
-        "dayOfMonth": 31,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
-      },
-      "textoIdentificador": "DÉB.TIT.COB.EFETIV",
-      "valor": -239.6,
-      "descricao": "Fio de nylon e arame",
-      "numeroDOC": "1475174",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 6,
-        "dayOfMonth": 31,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 56
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 200.0,
-      "descricao": "",
-      "numeroDOC": "0000098639",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
       ],
       "arquivos": []
     },
@@ -63054,7 +62918,7 @@
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -955.97,
-      "descricao": "FAV.: E \u0026 S COMERCIO DE COMBUSTIVEIS E L - Gasolina maquinas e veiculos",
+      "descricao": "FAV.: E & S COMERCIO DE COMBUSTIVEIS E L - Gasolina maquinas e veiculos",
       "numeroDOC": "1506960",
       "classificada": false,
       "tipos": [
@@ -65396,7 +65260,7 @@
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1043.05,
-      "descricao": "FAV.: E \u0026 S COMERCIO DE COMBUSTIVEIS E L - Combustivel para automoveis e maquinas",
+      "descricao": "FAV.: E & S COMERCIO DE COMBUSTIVEIS E L - Combustivel para automoveis e maquinas",
       "numeroDOC": "1569637",
       "classificada": false,
       "tipos": [
@@ -67461,7 +67325,7 @@
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -952.62,
-      "descricao": "FAV.: E \u0026 S COMERCIO DE COMBUSTIVEIS E L - Abastecimento de veiculos e maquinas",
+      "descricao": "FAV.: E & S COMERCIO DE COMBUSTIVEIS E L - Abastecimento de veiculos e maquinas",
       "numeroDOC": "1633044",
       "classificada": true,
       "tipos": [
@@ -69538,9 +69402,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 22
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 583.47,
@@ -69557,9 +69421,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 22
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -3.0,
@@ -69577,9 +69441,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 22
       },
       "textoIdentificador": "DEB.EMI.TED DIF.TIT",
       "valor": -6860.0,
@@ -69596,9 +69460,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 22
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -17138.0,
@@ -69616,9 +69480,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 22
       },
       "textoIdentificador": "DEB.PARC.SUBS/INTEG",
       "valor": -50.0,
@@ -69635,9 +69499,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 8,
+        "minute": 15,
+        "second": 22
       },
       "textoIdentificador": "CHQ CMP INTEGRADA",
       "valor": -22.9,
@@ -69659,7 +69523,7 @@
         "second": 0
       },
       "textoIdentificador": "RDC - Longo CDI",
-      "valor": 187750.44,
+      "valor": 187458.71,
       "descricao": "Valor aplicacao no mes",
       "numeroDOC": "11111111",
       "classificada": true,
@@ -69674,9 +69538,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 1,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB PACOTE TARIFAS",
       "valor": -59.0,
@@ -69693,30 +69557,10 @@
       "datas": {
         "year": 2019,
         "month": 10,
-        "dayOfMonth": 1,
-        "hourOfDay": 0,
-        "minute": 0,
-        "second": 0
-      },
-      "textoIdentificador": "RDC - Longo CDI",
-      "valor": 187750.44,
-      "descricao": "Valor aplicacao no mes",
-      "numeroDOC": "11111111",
-      "classificada": true,
-      "tipos": [
-        "OUTRAS_RECEITAS",
-        "VALOR_APLICACAO"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -500.0,
@@ -69733,9 +69577,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "CHEQUE PAGO CAIXA",
       "valor": -300.0,
@@ -69752,9 +69596,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DÉB. TIT. COBRANÇA",
       "valor": -176.14,
@@ -69771,9 +69615,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -220.95,
@@ -69790,9 +69634,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -206.1,
@@ -69809,9 +69653,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "CHEQUE PAGO CAIXA",
       "valor": -334.8,
@@ -69828,9 +69672,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 2234.94,
@@ -69847,9 +69691,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 4,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -14.5,
@@ -69867,9 +69711,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 1495.45,
@@ -69886,9 +69730,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 5,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -8.5,
@@ -69906,9 +69750,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 6,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -25555.23,
@@ -69926,9 +69770,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 6,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 998.26,
@@ -69945,9 +69789,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 6,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -6.0,
@@ -69965,9 +69809,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
       "valor": 563.76,
@@ -69984,9 +69828,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "TARIFA COBRANÇA",
       "valor": -3.0,
@@ -70004,9 +69848,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1189.0,
@@ -70023,9 +69867,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -777.6,
@@ -70043,9 +69887,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -999.94,
@@ -70063,9 +69907,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1215.91,
@@ -70083,9 +69927,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1214.02,
@@ -70103,9 +69947,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1068.6,
@@ -70123,9 +69967,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1705.04,
@@ -70143,9 +69987,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -193.36,
@@ -70163,9 +70007,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DÉB.TRANSF.POU.INTE",
       "valor": -1202.93,
@@ -70183,9 +70027,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -955.2,
@@ -70203,9 +70047,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -955.2,
@@ -70223,9 +70067,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -998.75,
@@ -70243,9 +70087,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DÉB CONV. FGTS",
       "valor": -1374.12,
@@ -70262,9 +70106,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -1341.73,
@@ -70282,9 +70126,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 7,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
       "valor": -2403.0,
@@ -70302,9 +70146,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -70.0,
@@ -70321,9 +70165,9 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
       "valor": -220.0,
@@ -70341,857 +70185,14 @@
         "year": 2019,
         "month": 10,
         "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
+        "hourOfDay": 16,
+        "minute": 19,
+        "second": 52
       },
       "textoIdentificador": "CHEQUE PAGO CAIXA",
       "valor": -400.0,
       "descricao": "",
       "numeroDOC": "003.627",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CHQ CMP INTEGRADA",
-      "valor": -1000.0,
-      "descricao": "",
-      "numeroDOC": "003.626",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 1280.14,
-      "descricao": "",
-      "numeroDOC": "0000090680",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 8,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "TARIFA COBRANÇA",
-      "valor": -8.0,
-      "descricao": "",
-      "numeroDOC": "0000090680",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "TARIFAS_BANCARIAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -1544.3,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710071",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -194.34,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710072",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -512.19,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710073",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -228.37,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710074",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -840.74,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710075",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -208.84,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710076",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -825.48,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710077",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -2305.06,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710078",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -117.88,
-      "descricao": "Energia 11 2019",
-      "numeroDOC": "1710079",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -618.35,
-      "descricao": "Rocadeira 06 de 06",
-      "numeroDOC": "1710080",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -232.5,
-      "descricao": "Pintura calcada 01 04",
-      "numeroDOC": "1710081",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB. TIT. COBRANÇA",
-      "valor": -101.0,
-      "descricao": "Mensalidade SPC",
-      "numeroDOC": "1710082",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 1742.98,
-      "descricao": "",
-      "numeroDOC": "0000090279",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 11,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "TARIFA COBRANÇA",
-      "valor": -8.5,
-      "descricao": "",
-      "numeroDOC": "0000090279",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "TARIFAS_BANCARIAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 12,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -148.1,
-      "descricao": "Energisa 11 2019",
-      "numeroDOC": "1712655",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "ENERGISA"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 12,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 1365.62,
-      "descricao": "",
-      "numeroDOC": "0000088772",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 12,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "TARIFA COBRANÇA",
-      "valor": -8.0,
-      "descricao": "",
-      "numeroDOC": "0000088772",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "TARIFAS_BANCARIAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 13,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -749.5,
-      "descricao": "Sacos de lixo",
-      "numeroDOC": "1714959",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 13,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 3178.25,
-      "descricao": "",
-      "numeroDOC": "0000089860",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 13,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "TARIFA COBRANÇA",
-      "valor": -13.0,
-      "descricao": "",
-      "numeroDOC": "0000089860",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "TARIFAS_BANCARIAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 14,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -210.0,
-      "descricao": "Plano Odontologico dos F.",
-      "numeroDOC": "1700935",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 14,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CHEQUE PAGO CAIXA",
-      "valor": -450.0,
-      "descricao": "",
-      "numeroDOC": "003.629",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 14,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -92.0,
-      "descricao": "Lamina Rocadeira",
-      "numeroDOC": "1717980",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 14,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CHQ CMP INTEGRADA",
-      "valor": -216.0,
-      "descricao": "",
-      "numeroDOC": "003.628",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 14,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 1014.76,
-      "descricao": "",
-      "numeroDOC": "0000090032",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 14,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "TARIFA COBRANÇA",
-      "valor": -6.0,
-      "descricao": "",
-      "numeroDOC": "0000090032",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "TARIFAS_BANCARIAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COB.EFETIV",
-      "valor": -397.5,
-      "descricao": "Tabela de basquete 2/2",
-      "numeroDOC": "1687827",
-      "classificada": false,
-      "tipos": [
-        "OUTROS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "CRÉD.LIQ.COBRANÇA",
-      "valor": 3074.34,
-      "descricao": "",
-      "numeroDOC": "0000089370",
-      "classificada": false,
-      "tipos": [
-        "OUTRAS_RECEITAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "TARIFA COBRANÇA",
-      "valor": -104.0,
-      "descricao": "",
-      "numeroDOC": "0000072299",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_ADMINISTRATIVAS",
-        "TARIFAS_BANCARIAS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -300.0,
-      "descricao": "FAV.: FABIANO RODRIGUES - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722934",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -300.0,
-      "descricao": "FAV.: FRANCISCO DE ASSIS MARQUES - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722935",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -300.0,
-      "descricao": "FAV.: GEISON DANIEL DA SILVA - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722936",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -300.0,
-      "descricao": "FAV.: GILMAR COSTA DOS SANTOS - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722937",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -1312.51,
-      "descricao": "FAV.: ISAAC GOMES DO NASCIMENTO - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722938",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -800.0,
-      "descricao": "FAV.: JOÃO BELARMINO DOS SANTOS - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722939",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TRANSF.POU.INTE",
-      "valor": -300.0,
-      "descricao": "JOSE ARLINDO CAMILO",
-      "numeroDOC": "5642735",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "SALARIO_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -300.0,
-      "descricao": "FAV.: MARIA ZELIA RODRIGUES - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722941",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -300.0,
-      "descricao": "FAV.: MERCIA RODRIGUES ALVES - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722942",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DEB.TR.CT.DIF.TIT.",
-      "valor": -300.0,
-      "descricao": "FAV.: VAMBERTO ALVES GONCALVES - Adiantamento salarial 11 2019",
-      "numeroDOC": "1722943",
-      "classificada": true,
-      "tipos": [
-        "DESPESAS_PESSOAL",
-        "ADIANTAMENTO_SALARIAL_FUNCIONARIOS_ORGANICOS"
-      ],
-      "arquivos": []
-    },
-    {
-      "datas": {
-        "year": 2019,
-        "month": 10,
-        "dayOfMonth": 18,
-        "hourOfDay": 10,
-        "minute": 54,
-        "second": 42
-      },
-      "textoIdentificador": "DÉB.TIT.COMPE.EFETI",
-      "valor": -419.0,
-      "descricao": "Materiais eletricos",
-      "numeroDOC": "1722944",
       "classificada": false,
       "tipos": [
         "OUTROS"
