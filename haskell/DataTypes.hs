@@ -118,5 +118,5 @@ module DataTypes(
    instance Eq Transacao where
       Transacao _ x _ _ _ _ == Transacao _ y _ _ _ _  = x == y
    
-   
-   
+
+

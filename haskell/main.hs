@@ -1,5 +1,6 @@
 module Main where
 import Parser
+import Util
 import DataTypes
 import Control.Monad
 import Data.Time.Clock

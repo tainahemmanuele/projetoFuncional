@@ -146,7 +146,7 @@ function isDebit(obj){
 }
 
 function isNotBalance(obj){
-	return !(obj.textoIdentificador === "Saldo Corrente");
+	return !(obj.tipos.includes("SALDO_CORRENTE"));
 }
 
 
@@ -165,7 +165,7 @@ function filterTransactions(list){
 function getInitialBalanceAtYearMonth(list,yearMonth){	
 	let balance = 0;
 	(filterByYearMonth(list,yearMonth)).forEach(function (obj) {
-		if (obj.textoIdentificador === "Saldo Corrente")
+		if (obj.tipos.includes("SALDO_CORRENTE"))
 			balance = obj.valor;
 	});
 	return balance;
