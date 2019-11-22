@@ -7,16 +7,6 @@ module Util
 
 import DataTypes
 
--- Date
-getYear (GregorianCalendar y _ _ ) = y
-getMonth (GregorianCalendar _ m _ ) = m
-getDay (GregorianCalendar _ _ d) = d
-
--- Info
-getValor (Transacao _ v _ _ _ _) = v
-getDate (Transacao d _ _ _ _ _) = d
-getType (Transacao _ _ _ _ _ t) = t
-
 exibeTabelaTransacoes :: [Transacao] -> IO ()
 exibeTabelaTransacoes transacoes = do 
     putStrLn cabecalho
@@ -37,7 +27,7 @@ cabecalho =
     fmt 12 " NUMERO_DOC" ++ " | " ++
     fmt 20 "       TIPOS"
 
-printLinha = putStrLn $ replicate 160 '-'
+printLinha = putStrLn $ replicate 148 '_'
 
 formataTransaction :: Transacao -> String
 formataTransaction (Transacao d v ti desc ndoc tipos) =
