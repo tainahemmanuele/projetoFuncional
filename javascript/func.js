@@ -61,11 +61,11 @@ function computeDCByYearMonth(list,yearMonth){
 
 //6 - Calcular o saldo final em um determinado ano e mês
 function computeBalance(list,yearMonth){
-	return (filterTransactions(filterByYearMonth(list,yearMonth)).reduce(function(a,b){ return a + b.valor;}, 0));
+	return filterTransactions(filterByYearMonth(list,yearMonth)).reduce(function(a,b){ return a + b.valor;}, 0);
 }
 
 function computeBalanceDay(list,yearMonth){
-	return (filterTransactions(filterByYearMonthDay(list,yearMonth)).reduce(function(a,b){ return a + b.valor;}, 0));
+	return filterTransactions(filterByYearMonthDay(list,yearMonth)).reduce(function(a,b){ return a + b.valor;}, 0);
 }
 
 //7 - Calcular o saldo máximo atingido em determinado ano e mês
@@ -138,7 +138,7 @@ function computeCDByDay(list,yearMonth){
 }
 
 function isDebitOrCredit(obj){
-	return !(obj.tipos.includes("SALDO_CORRENTE")) && !(obj.tipos.includes("APLICACAO")) && !(obj.tipos.includes("VALOR_APLICACAO"));
+	return ((!obj.tipos.includes("SALDO_CORRENTE")) && (!obj.tipos.includes("APLICACAO"))  && (!obj.tipos.includes("VALOR_APLICACAO")));
 }
 
 function isDebit(obj){
@@ -155,7 +155,7 @@ function isCredit(obj){
 }
 
 function isCreditOrDebitOrBalance(obj){
-	return !(obj.tipos.includes("APLICACAO")) && !(obj.tipos.includes("VALOR_APLICACAO"));
+	return ((!obj.tipos.includes("APLICACAO")) && (!obj.tipos.includes("VALOR_APLICACAO")));
 }
 
 function filterTransactions(list){
@@ -231,14 +231,17 @@ function populateHTML(arr){
 		let l1 = document.createElement("li");
 		let l2 = document.createElement("li");
 		let l3 = document.createElement("li");
+		let l4 = document.createElement("li");
 
 		l1.innerHTML = "Descrição: " + a.textoIdentificador; 
 		l2.innerHTML = "valor: " + a.valor; 
 		l3.innerHTML = "Data: " + a.data; 
+		l4.innerHTML = "Tipos: " + a.tipos; 
 	
 		ul.append(l1);
 		ul.append(l2);
 		ul.append(l3);
+		ul.append(l4);
 
 		el.append(ul);
 	})

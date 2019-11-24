@@ -8,8 +8,21 @@ import ParserTest
 -- Roda usando runTestTT nomedaFuncaoTeste
 --Compila Tests.hs antes
 -- OBS: Base de dados usada para o teste: dadosTests.json . Essa base é pequena, apenas para mostrar o funcionamento dos metodos
+--Se quiser rodar todos é só rodar Tests.main
+
 main = do
-   testFilterYear
+   runTestTT testFilterYear
+   runTestTT testFilterByYearMonth
+   runTestTT testIsCredit
+   runTestTT testIsDebit
+   runTestTT testIsBalance
+   runTestTT testIsCreditOrDebit
+   runTestTT testIsCreditOrDebitOrBalance
+   runTestTT testSumValues
+   runTestTT testSumSobra
+   runTestTT testFinalBalanceInMonth
+   runTestTT testSumCreditsByYearMonth
+   runTestTT testSumDebitByYearMonth
 
 
 --testFilterYear :: ([Transacao] -> Assertion) -> IO b0

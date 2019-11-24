@@ -10,6 +10,18 @@ import Data.Time.Calendar
 main = do
   db <- getTransactions
   putStrLn "DB carregado."
+  let a = (filterByYearMonthDay db 2019 3 1)
+  let b = sumCreditsByYearMonth db 2017 5
+  let c = sumDebitByYearMonth db 2017 5
+  let d = sumSobra db 2017 5
+  let e = finalBalanceInMonth db 2017 5
+  let f = getSaldoMax db 2017 5
+  let g = getSaldoMin db 2017 5
+  let h = meanCreditYear db 2017
+  let i = meanDebitYear db 2017
+  let j = meanSobraYear db 2017
+  exibeTabelaTransacoes a
+  exibeFluxoDeCaixa (cashFlow db 2017 5)
   putStrLn "Fim."
 
 --Pra usar no GHCI primeiro chame:
@@ -71,20 +83,19 @@ finalBalanceInMonth db y m = sumValues (filterTransactions (filterByYearMonth db
 
 --Calcular o saldo máximo atingido em determinado ano e mês
 getSaldoMax [] _ _ = 0
-getSaldoMax db y m = maximum (getSaldos (tail ts) (getValor (balance) ))
+getSaldoMax db y m = maximum (getSaldos db y m)
+
+getSaldos db y m = (getSaldos' (ts) (getValor (balance) ))
  where 
  ts = filter (isCreditOrDebit) (filterByYearMonth db y m)
- balance = head (filter (isBalance) (filterTransactions (filterByYearMonth db y m)))
+ balance = head (filter (isBalance) ((filterByYearMonth db y m)))
 
-getSaldos [] _ = []
-getSaldos (t:ts) b = [b] ++ getSaldos ts ((getValor t)+b)
+getSaldos' [] _ = []
+getSaldos' (t:ts) b = [b] ++ getSaldos' ts ((getValor t)+b)
 
 --Calcular o saldo mínimo atingido em determinado ano e mês
 getSaldoMin [] _ _ = 0
-getSaldoMin db y m = minimum (getSaldos (tail ts) (getValor (balance) ))
- where 
- ts = filter (isCreditOrDebit) (filterByYearMonth db y m)
- balance = head (filter (isBalance) (filterTransactions (filterByYearMonth db y m)))
+getSaldoMin db y m = minimum (getSaldos db y m)
  
 --Calcular a média das receitas em determinado ano
 meanCreditYear db y = (sumValues filtered) / (fromIntegral (length filtered))
